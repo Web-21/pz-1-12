@@ -1,22 +1,72 @@
-/* Extra small devices (portrait phones, less than 576px)*/
-/* No media query for `xs` since this is the default in Bootstrap*/
 
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-
+@media (max-width: 1024px) {
+    #header-div-small, #display-1024, #carouselExampleIndicators {
+        display: none;
+    }
+    .gray-block {
+        display: none;
+    }
+    .after-header {
+    width: 60%;
+    }
+    .like-for-phone, .watch-for-phone {
+        display: block;
+    } 
+    .like-for-tablet, .watch-for-tablet {
+        display: none;
+    } 
+    .fifth-member {
+        display: none;
+    }
 }
-
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-
+@media (min-width: 1024px) {
+    #display-768 {
+        display: none;
+    }
+    #header-div-small, #display-1024, #carouselExampleIndicators {
+        display: block;
+    }
+    .after-header {
+        width: 95%;
+    }
+    .gray-block {
+        display: none;
+    }
+    .like-for-phone, .watch-for-phone {
+        display: none;
+    } 
+    .like-for-tablet, .watch-for-tablet {
+        display: block;
+    } 
+    .fifth-member {
+        display: block;
+    }
 }
-
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-
+@media (min-width: 1280px) {
+    .gray-block {
+        display: block;
+    }
+    .right-block {
+        width: 80%;
+    }
+    .like-for-phone, .watch-for-phone {
+        display: none;
+    } 
+    .like-for-tablet, .watch-for-tablet {
+        display: block;
+    } 
+    .fourth-member {
+        display: none;
+    }
 }
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-
+@media (min-width: 1440px) {
+    .third-member {
+        display: none;
+    }
+    .gray-block {
+        display: none;
+    }
+   #blocks-variants, .right-block {
+    width: 100%;
+   }
 }
