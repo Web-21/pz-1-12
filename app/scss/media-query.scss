@@ -1,22 +1,66 @@
-/* Extra small devices (portrait phones, less than 576px)*/
-/* No media query for `xs` since this is the default in Bootstrap*/
-
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-
+@media (min-width:1px) {
+    .action-item, .grid-icon, .user-avatar, .more-action-item, .carousel{
+        display: none;
+    }
+    #display-1024{
+        display: none;
+    }
+    #projects-container{
+        display: none;
+    }
+}
+@media (min-width:1024px) {
+    .menu-icon{
+        display: none;
+    }
+    #ecran-table{
+        display: none;
+    }
+    #display-1024{
+        display: block;
+    }
+    .action-item, .grid-icon, .user-avatar, .more-action-item, .carousel{
+        display: block;
+    }
+    
+}
+@media (min-width:1280px) {
+    #hidden-sm{
+        display: none;
+    }
+    #projects-container{
+        display: block;
+    }
+    #dropdown{
+        width: 150px;
+    }
+    #project-buttons{
+        width: 100%;
+    }
+    #new-ptoject{
+        width: 150px;
+    }
 }
 
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-
+@media (max-width:1439px) {
+    #container{
+        width: 80%;
+    }
+    .team-icons{
+        width: 60%;
+    }
 }
-
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-
-}
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-
+@media (min-width:1440px) {
+    #projects-container{
+        display: none;
+    }
+    #container{
+        width: 100%;
+    }
+    #display-1440-none{
+        display: none;
+    }
+    .team-icons{
+        width: 50%;
+    }
 }
