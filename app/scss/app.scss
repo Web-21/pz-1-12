@@ -2,3 +2,196 @@
 @import "reset";
 @import "media-query";
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+header{
+    background-color: $gray-700;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.primary-btn{
+    height: 40px;
+    background-color: $gray-500;
+   
+}
+.grid-svg{
+    margin-right: 20px;
+    margin-left: 15px;
+}
+.btn{
+    width: 100%;
+    height: 100%;
+     background-color: $gray-500;
+}
+.ms-auto{
+    margin-right: 10px;
+}
+.secondary-btn-group{
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.primary-btns{
+    height: 30px;
+    background-color: $gray-500;
+    margin-left: 10px;
+}
+.profile-avatar{
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+    background-image: url("../img/profile-icon1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.new-ptoject{
+    background-color: #f60;
+}
+#carousel{
+    width: 100vw;
+    height: 300px;
+}
+#carousel-item{
+    background-size: cover;
+    height: 300px;
+}
+.text-conteiner{
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.avatar-1{
+    background-image: url("../img/icon1.jfif");
+}
+.avatar-2{
+    background-image: url("../img/icon2.jfif");
+}
+.avatar-3{
+    background-image: url("../img/icon3.jpg");
+}
+.avatar-4{
+    background-image: url("../img/icon4.jfif");
+}
+.avatar-5{
+    background-color: $gray-700;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.block-1{
+    background-color: $teal;
+}
+.block-2{
+    background-color: $orange;
+}
+.block-3{
+    background-color: $blue;
+}
+.block-4{
+    background-color: $purple;
+}
+.block-5{
+    background-color: $blue-300;
+}
+.block-6{
+    background-color: $green-400;
+}
+.block-7{
+    background-color: $pink-400;
+}
+.block-8{
+    background-color: $red;
+}
+.block-9{
+    background-color: $teal-200;
+}
+.block-10{
+    background-color: $pink-100;
+}
+.block-11{
+    background-color: $orange-100;
+}
+.block-12{
+    background-color: $cyan;
+}
+.card-content{
+    margin: auto;
+    margin-top: 20px;
+}
+#heading-bold{
+    font-weight: 500;
+    font-size: x-large;
+}
+.team-card{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: $gray-200;
+    justify-content: space-between;
+}
+.avatar-small{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team-card-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#team-title{
+    font-weight: 600;
+    margin-left: 10px;
+}
+.favorites{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+#card{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#projects-section{
+    display: flex;
+    margin: auto;
+}
+#favorites-text{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.left-card{
+    background-color: $gray-400;
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#left-card-text{
+    font-weight: 500;
+    font-size: 20px;
+    color: $gray-600;
+}
+#card-header{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
