@@ -2,3 +2,196 @@
 @import "reset";
 @import "media-query";
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+header{
+    background-color: $gray-700;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.event{
+    height: 40px;
+    background-color: $gray-500;
+   
+}
+.btn{
+    width: 100%;
+    height: 100%;
+     background-color: $gray-500;
+}
+.ms-auto{
+    margin-right: 10px;
+}
+.more-events{
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.events{
+    height: 30px;
+    background-color: $gray-500;
+    margin-left: 10px;
+}
+.ava-icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+    background-image: url("../img/profile-icon1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid-svg{
+    margin-right: 20px;
+    margin-left: 15px;
+}
+.project-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.new-ptoject{
+    background-color: #f60;
+}
+#carousel{
+    width: 100vw;
+    height: 300px;
+}
+#carousel-item{
+    background-size: cover;
+    height: 300px;
+}
+.text-conteiner{
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block-1{
+    background-color: $teal;
+}
+.block-2{
+    background-color: $orange;
+}
+.block-3{
+    background-color: $blue;
+}
+.block-4{
+    background-color: $purple;
+}
+.block-5{
+    background-color: $blue-300;
+}
+.block-6{
+    background-color: $green-400;
+}
+.block-7{
+    background-color: $pink-400;
+}
+.block-8{
+    background-color: $red;
+}
+.block-9{
+    background-color: $teal-200;
+}
+.block-10{
+    background-color: $pink-100;
+}
+.block-11{
+    background-color: $orange-100;
+}
+.block-12{
+    background-color: $cyan;
+}
+.container-content{
+    margin: auto;
+    margin-top: 20px;
+}
+#text-bold{
+    font-weight: 500;
+    font-size: x-large;
+}
+.social-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: $gray-200;
+    justify-content: space-between;
+}
+.ava-icon-small{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.social-container-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-1{
+    background-image: url("../img/icon1.jfif");
+}
+.icon-2{
+    background-image: url("../img/icon2.jfif");
+}
+.icon-3{
+    background-image: url("../img/icon3.jpg");
+}
+.icon-4{
+    background-image: url("../img/icon4.jfif");
+}
+.icon-6{
+    background-color: $gray-700;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#some-text{
+    font-weight: 600;
+    margin-left: 10px;
+}
+.liked-watch{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+#liked-watch-text{
+    font-weight: 400;
+    font-size: 20px;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#cadr-container{
+    display: flex;
+    margin: auto;
+}
+.left-container{
+    background-color: $gray-400;
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#left-container-text{
+    font-weight: 500;
+    font-size: 20px;
+    color: $gray-600;
+}
+#left-container-text-block{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.icon-heart:before {
+    content: "\e9da";
+  }

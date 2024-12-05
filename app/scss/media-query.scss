@@ -1,22 +1,66 @@
-/* Extra small devices (portrait phones, less than 576px)*/
-/* No media query for `xs` since this is the default in Bootstrap*/
-
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-
+@media (min-width:1px) {
+    .events, .grid-svg, .ava-icon, .more-events, .carousel{
+        display: none;
+    }
+    #device-1024{
+        display: none;
+    }
+    #device-1280-block{
+        display: none;
+    }
+}
+@media (min-width:1024px) {
+    .nav-list-icon{
+        display: none;
+    }
+    #device-768{
+        display: none;
+    }
+    #device-1024{
+        display: block;
+    }
+    .events, .grid-svg, .ava-icon, .more-events, .carousel{
+        display: block;
+    }
+    
+}
+@media (min-width:1280px) {
+    #device-1280-none{
+        display: none;
+    }
+    #device-1280-block{
+        display: block;
+    }
+    #dropdown{
+        width: 150px;
+    }
+    #project-buttons{
+        width: 100%;
+    }
+    #new-ptoject{
+        width: 150px;
+    }
 }
 
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-
+@media (max-width:1439px) {
+    #container{
+        width: 80%;
+    }
+    .social-container-icons{
+        width: 60%;
+    }
 }
-
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-
-}
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-
+@media (min-width:1440px) {
+    #device-1280-block{
+        display: none;
+    }
+    #container{
+        width: 100%;
+    }
+    #device-1440-none{
+        display: none;
+    }
+    .social-container-icons{
+        width: 50%;
+    }
 }
