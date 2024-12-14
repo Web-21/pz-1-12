@@ -1,22 +1,66 @@
-/* Extra small devices (portrait phones, less than 576px)*/
-/* No media query for `xs` since this is the default in Bootstrap*/
-
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-
+@media (min-width:1px) {
+    .some-btns, .grid-svg, .avatar-icon, .more-some-btns, .carousel{
+        display: none;
+    }
+    #sreen-1024{
+        display: none;
+    }
+    #screen-1280-block{
+        display: none;
+    }
+}
+@media (min-width:1024px) {
+    .nav-list-icon{
+        display: none;
+    }
+    #srceen-768{
+        display: none;
+    }
+    #sreen-1024{
+        display: block;
+    }
+    .some-btns, .grid-svg, .avatar-icon, .more-some-btns, .carousel{
+        display: block;
+    }
+    
+}
+@media (min-width:1280px) {
+    #screen-1280-none{
+        display: none;
+    }
+    #screen-1280-block{
+        display: block;
+    }
+    #dropdown{
+        width: 150px;
+    }
+    #project-buttons{
+        width: 100%;
+    }
+    #new-ptoject{
+        width: 150px;
+    }
 }
 
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-
+@media (max-width:1439px) {
+    #card{
+        width: 80%;
+    }
+    .social-card-icons{
+        width: 60%;
+    }
 }
-
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
-
-}
-
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-
+@media (min-width:1440px) {
+    #screen-1280-block{
+        display: none;
+    }
+    #card{
+        width: 100%;
+    }
+    #screen-1440-none{
+        display: none;
+    }
+    .social-card-icons{
+        width: 50%;
+    }
 }
